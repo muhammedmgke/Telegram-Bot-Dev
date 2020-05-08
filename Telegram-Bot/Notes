@@ -1,0 +1,15 @@
+Notes - 
+
+Documentation website is - telegraf.js.org
+
+Two commands are very importat for the Bot - start command and the help command.
+
+bot.on("message_type",(ctx)) - is used to intercept context and create custom methods of reply
+
+When we try to hear a particular keyword , we use - bot.hears("keyword",(ctx))
+
+We can create custom commands using , bot.command("command_name",(ctx))
+
+array.shift() - deletes the first entry of array at index 0 and shifts the array to the left (ie makes the entry at index 1 shift to index 0)
+
+to join two parts of array using a character, we use - array.join("character")
